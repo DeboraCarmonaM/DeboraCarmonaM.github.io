@@ -1,0 +1,110 @@
+html,body{
+    margin: 0;
+    background-color: black;
+}
+
+#imagem_fundo{
+
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 100%;
+    right: 100%;
+    padding: 10px;
+}
+
+#titulo{
+    padding-top: 38%;
+    margin: 0%;
+    font-size: 450%;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+#subtitulo{
+    padding-top: 2%;
+    margin: 0%;
+    font-size: 250%;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+
+}
+
+#citacaoDavis{
+    padding-top: 8%;
+    margin: 0%;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-style: italic;
+
+}
+
+#imagem1{
+    padding-top: 11%;
+    right: -5%;
+    position: relative;
+    
+}
+
+
+.conteudo{
+    display: table;
+}
+
+.imagem{
+    display: table-cell;
+    float: left;
+    right: -5%;
+    position: relative;
+    padding-top: 13%;
+}
+
+.text{
+    display: table-cell;
+    float: left;
+    width: 500px;
+    position: relative;
+    padding-top: 14%;
+    color: white;
+    
+}
+
+#questao1{
+    font-size: 180%;
+    font-family: monospace;
+    right: -42%;
+    position: relative;
+
+    
+}
+
+#resposta1{
+    font-size: 120%;
+    font-family: monospace;
+    right: -42%;
+    position: relative;
+
+}
+
+#questao2{
+    font-size: 180%;
+    font-family: monospace;
+    right: -42%;
+    position: relative;
+    
+}
+
+#resposta2{
+    font-size: 120%;
+    font-family: monospace;
+    right: -42%;
+    position: relative;
+
+}
+
+
+
+
