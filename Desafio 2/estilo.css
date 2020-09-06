@@ -1,0 +1,215 @@
+html, body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    background-color: #363636;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+#logo img{
+    width: 50px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 13px;
+     
+}
+
+#menu{
+    float: right;
+    margin-right: 30px;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li{
+    float: left;
+    padding: 20px 20px 21.5px 20px;
+    
+}
+
+li:hover{
+    background-color:  #4B0082;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+#imagem_fundo{
+    background-image: url(img/fundooo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo{
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 8%;
+    margin: 0;
+    font-size: 550%; 
+}
+
+#subtitulo{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 1.5;
+    font-size: 150%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;   
+    text-shadow: 2px 2px 8px black;
+
+
+}
+
+#acao{
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #4B0082;
+    opacity: 0.5;
+}
+
+.icone{
+    width: 55px;
+    padding: 20px;
+}
+
+.destaque{
+    background-color: 	#A9A9A9;
+    padding-top: 5px;
+}
+/*Alteração do padding*/
+section{
+    padding: 20px;
+    float: left;
+    text-align: center;
+    background-color: #D3D3D3;
+    color: white;
+}
+
+.imgeco{
+    width: 80%;
+}
+#acao:hover{
+    background-color: #363636;
+    font-weight: 545;
+}
+
+.imgdestaque{
+    background-color: 	#A9A9A9;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.icone:hover{
+    background-color: rgba(0, 0, 255, 0.281);
+    border-radius: 23px;
+}
+
+img:hover{
+    transform: scale(1.022);
+}
+
+img{
+    transition: 500ms
+}
+
+#titulocor{
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+
+#projeto{
+    align-items: center;
+    padding-top: 15%;
+    height: 80%;
+}
+
+#selecao{
+    align-items: center;
+    padding-top: 10%;
+    height: 80%;
+
+}
+
+#ecopontos{
+    align-items: center;
+    padding-top: 10%;
+    height: 80%;
+}
+
+#sobre{
+    align-items: center;
+    padding-top: 5%;
+    height: 90%;
+}
+
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative; /*posição do elemento (div) vai variar com base no elemento, que vem anteriormente (div lado esquerdo)*/
+    
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+
+.quatro{
+    width: 15%;
+}
+
+#sobre img{
+    width: 100%;
+}
+
+footer{
+    background-color: #363636;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+ /*#topo{
+    width: 80%;
+    
+}
+
+.topo{
+    width: 80%;
+    
+}
+
+#topoeu{
+    width: 80%;
+    
+}*/
+
